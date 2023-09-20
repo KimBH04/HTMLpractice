@@ -2,29 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Count</title>
     </head>
     <body>
         <p id="count">0</p>
-        <button onclick="Up()">up</button>
-        <button onclick="Down()">down</button>
-        <script>
-            var count = 0
-
-            function Display() {
-                document.getElementById('count').innerHTML = count
-            }
-
-            function Up() {
-                count++
-                Display()
-            }
-
-            function Down() {
-                count--
-                Display()
-            }
-        </script>
+        <button onclick="up()">Up</button>
+        <button onclick="down()">Down</button>
+        <script src="count.js"></script>
     </body>
 </html>
